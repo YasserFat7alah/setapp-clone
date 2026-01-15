@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  /* ---- Grey ---- */
+  --grey-800: #26262B;
+  --grey-100: #FEFEFE;
+
+
+  /* ---- White & Black ---- */
+  --white: #fff;
+  --black: #000;
+}
+
+@theme {
+  /* ---- Background Colors ---- */
+  --color-background-dark: var(--grey-800);
+  --color-foreground-light: var(--grey-100);
+
+  /* ---- Text Colors ---- */
+  --color-foreground: white;
+  --color-background: var(--grey-800);
+  
+
+}
+
+body {
+  background-color: var(--grey-800);
+  color: var(--white)
+}
