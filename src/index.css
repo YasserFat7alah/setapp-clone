@@ -4,7 +4,8 @@
 :root {
   /* ---- Grey ---- */
   --grey-800: #26262B;
-  --grey-100: #FEFEFE;
+  --grey-200: #E5E5E5;
+  --grey-100: #fefefe;
 
 
   /* ---- White & Black ---- */
@@ -17,6 +18,11 @@
   --color-background-dark: var(--grey-800);
   --color-foreground-light: var(--grey-100);
 
+  /* ---- Grey ---- */
+  --color-grey-800: var(--grey-800);
+  --color-grey-200: var(--grey-200);
+  --color-grey-100: var(--grey-100);
+
   /* ---- Text Colors ---- */
   --color-foreground: white;
   --color-background: var(--grey-800);
@@ -27,6 +33,7 @@
 body {
   background-color: var(--grey-800);
   color: var(--white);
-    font-family: "Avenir Next" ,"Nunito", sans-serif;
-
+  font-family: "Avenir Next" ,"Nunito", sans-serif;
 }
+
+
