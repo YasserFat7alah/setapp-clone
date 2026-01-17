@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar"
 import HeroSection from "./components/HeroSection"
+import FeaturedSection from './components/FeaturedSection';
 import Footer from "./components/Footer"
 
 function App() {
@@ -8,7 +9,10 @@ function App() {
     <>
       <Navbar />
       <HeroSection />
+      <FeaturedSection />
+
       <Footer />
+
     </>
   )
 }

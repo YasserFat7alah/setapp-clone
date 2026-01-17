@@ -7,6 +7,10 @@
   --grey-200: #E5E5E5;
   --grey-100: #fefefe;
 
+  /* ---- Cards ---- */
+  --card-pink: #DF96AE;
+  --card-grey: #F4F0E4;
+  --card-blue: #384C75;
 
   /* ---- White & Black ---- */
   --white: #fff;
@@ -22,6 +26,11 @@
   --color-grey-800: var(--grey-800);
   --color-grey-200: var(--grey-200);
   --color-grey-100: var(--grey-100);
+
+  /* ---- Cards ---- */
+  --color-card-pink: var(--card-pink);
+  --color-card-grey: var(--card-grey);
+  --color-card-blue: var(--card-blue);
 
   /* ---- Text Colors ---- */
   --color-foreground: white;
