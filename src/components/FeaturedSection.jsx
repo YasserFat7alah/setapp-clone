@@ -6,7 +6,7 @@ import codeRunner from '../assets/featured/coderunner.png';
 import codeIcon from '../assets/featured/codeIcon.png';
 import meteer from '../assets/featured/meeter.png';
 import meteerIcon from '../assets/featured/meeterIcon.png';
-import {Card, CardContent, CardHead} from './containers/Card';
+import { Card, CardContent, CardHead } from './containers/Card';
 
 const FeaturedSection = () => {
 
@@ -42,7 +42,7 @@ const FeaturedSection = () => {
 
           {/* Large Card (Clean Mac) */}
           <Card bgColor='bg-card-pink'
-                className="col-span-2 pt-15 mt-22 min-h-120">
+            className="col-span-2 pt-15 mt-22 min-h-120">
 
             {/* Text Content */}
             <CardContent className="w-full pl-15 gap-8 text-grey-800">
@@ -92,7 +92,7 @@ const FeaturedSection = () => {
               {/* Title and Description */}
               <CardHead title={features[2].title} description={features[2].description} />
             </CardContent>
-            
+
             {/* Image - Centered at the top with shadow and rounded corners */}
             <div className="w-full flex justify-center items-center">
               <img
@@ -109,17 +109,17 @@ const FeaturedSection = () => {
         <div className="my-25 text-center">
           <a href="#" className="inline-flex items-center gap-2 text-white font-semibold hover:text-[#C68098] transition-colors">
             <svg width="26" height="20" viewBox="0 0 26 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M14.5 1.5L24.188 10L14.5 18.5M1.5 10.106H23.816" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M14.5 1.5L24.188 10L14.5 18.5M1.5 10.106H23.816" stroke="white" strokeWidth="3" stroke-linecap="round" stroke-linejoin="round" />
             </svg>
 
-            
+
             <span className="text-xl font-medium">View all superpowers</span>
-            
+
           </a>
         </div>
 
 
-         {/* --- Teaser --- */}
+        {/* --- Teaser --- */}
         <QA title="Your Setapp journey." description="Type in your task into Setapp search and get instant app recommendations." />
       </div>
     </section>

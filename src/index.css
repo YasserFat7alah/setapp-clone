@@ -4,6 +4,10 @@
 :root {
   /* ---- Grey ---- */
   --grey-800: #26262B;
+  --grey-700: #2B2D32;
+  --grey-600: #404547;
+  --grey-400: #969799;
+  --grey-300: #9D9CA2;
   --grey-200: #E5E5E5;
   --grey-100: #fefefe;
 
@@ -24,6 +28,10 @@
 
   /* ---- Grey ---- */
   --color-grey-800: var(--grey-800);
+  --color-grey-700: var(--grey-700);
+  --color-grey-600: var(--grey-600);
+  --color-grey-400: var(--grey-400);
+  --color-grey-300: var(--grey-300);
   --color-grey-200: var(--grey-200);
   --color-grey-100: var(--grey-100);
 
@@ -35,14 +43,12 @@
   /* ---- Text Colors ---- */
   --color-foreground: white;
   --color-background: var(--grey-800);
-  
+
 
 }
 
 body {
   background-color: var(--grey-800);
   color: var(--white);
-  font-family: "Avenir Next" ,"Nunito", sans-serif;
+  font-family: "Avenir Next", "Nunito", sans-serif;
 }
-
-
