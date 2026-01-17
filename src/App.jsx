@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar"
 import HeroSection from "./components/HeroSection"
 import FeaturedSection from './components/FeaturedSection';
+import CarouselSection from './components/CarouselSection';
 import Footer from "./components/Footer"
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <HeroSection />
       <FeaturedSection />
+      <CarouselSection />
 
       <Footer />
 

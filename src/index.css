@@ -19,6 +19,9 @@
   /* ---- White & Black ---- */
   --white: #fff;
   --black: #000;
+
+  /* ---- carousel ---- */
+  --carousel-purple: #765070;
 }
 
 @theme {
@@ -44,6 +47,8 @@
   --color-foreground: white;
   --color-background: var(--grey-800);
 
+  /* ---- carousel ---- */
+  --color-carousel-purple: var(--carousel-purple);
 
 }
 
