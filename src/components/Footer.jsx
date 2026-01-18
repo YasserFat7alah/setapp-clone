@@ -2,6 +2,7 @@ import { FaFacebookF, FaTwitter, FaYoutube, FaInstagram } from "react-icons/fa";
 import { MdArrowForwardIos } from "react-icons/md";
 
 import LanguageSwitcher from "./shared/LanguageSwitcher";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const footerLinks = [
@@ -45,10 +46,10 @@ const Footer = () => {
 
   return (
     <footer className="bg-grey-700 text-gray-300">
-      <div className="max-w-7xl mx-auto px-6 py-14">
+      <div className="px-7.5 py-20">
 
         {/* TOP SECTION */}
-        <div className="grid grid-cols-1 lg:grid-cols-[2fr_3fr] gap-10 ">
+        <div className="flex flex-col lg:flex-row justify-between gap-10 ">
 
           {/* LEFT */}
           <div className="space-y-6">
@@ -112,7 +113,7 @@ const Footer = () => {
 
         {/* BOTTOM ROW */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
-          <p className="text-xs text-gray-500">
+          <p className="text-xs text-white">
             © 2023 Setapp Limited, 9 Yellow Street, Youghal, Co. Cork, P36Y4A,
             Ireland. VAT ID: IE3452001BH
           </p>
@@ -136,6 +137,11 @@ const Footer = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="flex gap-3 text-[12px] text-gray-500 mt-3">
+          <Link to="/">Terms of Use</Link>
+          <Link to="/">Privacy Policy</Link>
+
         </div>
       </div>
     </footer>

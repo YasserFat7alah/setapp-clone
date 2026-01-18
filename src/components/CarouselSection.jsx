@@ -55,10 +55,10 @@ const CarouselSection = () => {
                     {/* Nav Arrows */}
                     <div className="absolute top-16 right-10 flex gap-11.5 h-6 z-20">
                         <button onClick={prevSlide} className="cursor-pointer hover:opacity-75 transition">
-                            <ArrowLeft />
+                            <ArrowLeft className="w-[14px] h-[24px] text-white" />
                         </button>
                         <button onClick={nextSlide} className="cursor-pointer hover:opacity-75 transition">
-                            <ArrowRight />
+                            <ArrowRight className="w-[14px] h-[24px] text-white" />
                         </button>
                     </div>
 
