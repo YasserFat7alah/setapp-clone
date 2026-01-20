@@ -46,7 +46,7 @@ During the development process, several challenges were encountered:
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/YasserFat7alah/setapp-clone
    ```
 2. Navigate to the project directory:
    ```bash
